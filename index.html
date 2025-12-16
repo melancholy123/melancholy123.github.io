@@ -122,14 +122,16 @@
 
       
 
-      <p align="justify"> <i id="bas_abs">Real-world legged locomotion systems often need to reconcile agility and safety for different scenarios. Moreover, the underlying dynamics are often unknown and time-variant (e.g., payload, friction). In this paper, we introduce BAS (Bridging Adaptivity and Safety), which builds upon the pipeline of prior work Agile But Safe (ABS)(He et al.) and is designed to provide adaptive safety even in dynamic environments with uncertainties. BAS involves an agile policy to avoid obstacles rapidly and a recovery policy to prevent collisions, a physical parameter estimator that is concurrently trained with agile policy, and a learned control-theoretic RA (reach-avoid) value network that governs the policy switch. Also, the agile policy and RA network are both conditioned on physical parameters to make them adaptive. To mitigate the distribution shift issue, we further introduce an on-policy fine-tuning phase for the estimator to enhance its robustness and accuracy. The simulation results show that BAS achieves 50% better safety than baselines in dynamic environments while maintaining a higher speed on average. In real-world experiments, BAS shows its capability in complex environments with unknown physics (e.g., slippery floors with unknown frictions, unknown payloads up to 8kg), while baselines lack adaptivity, leading to collisions or. degraded agility. As a result, BAS achieves a 19.8% increase in speed and gets a 2.36 times lower collision rate than ABS in the real world.</i></p>
+      <p align="justify"> <i id="bas_abs">Ensuring safety is a key aspect in sequential decision making problems, such as robotics or process control. The complexity of the underlying systems often makes finding the optimal decision challenging, especially when the safety-critical system is time-varying. Overcoming the problem of optimizing an unknown time-varying reward subject to unknown time-varying safety constraints, we propose TVSAFEOPT, a new algorithm built on Bayesian optimization with a spatio-temporal kernel. The algorithm is capable of safely tracking a time-varying safe region without the need for explicit change detection. Optimality guarantees are also provided for the algorithm when the optimization problem becomes stationary. We show that TVSAFEOPT compares favorably against SAFEOPT on synthetic data, both regarding safety and optimality. Evaluation on a realistic case study with gas compressors confirms that TVSAFEOPT ensures safety when solving time-varying optimization problems with unknown reward and safety functions.</i></p>
 
 <pre xml:space="preserve">
-@article{zhong2025bridging,
-  title={Bridging Adaptivity and Safety: Learning Agile Collision-Free Locomotion Across Varied Physics},
-  author={Zhong, Yichao and Zhang, Chong and He, Tairan and Shi, Guanya},
-  journal={arXiv preprint arXiv:2501.04276},
-  year={2025}
+@article{li2024safe,
+  title={Safe time-varying optimization based on gaussian processes with spatio-temporal kernel},
+  author={Li, Jialin and Zagorowska, Marta and De Pasquale, Giulia and Rupenyan, Alisa and Lygeros, John},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={95326--95355},
+  year={2024}
 }
 </pre>
       </div>
