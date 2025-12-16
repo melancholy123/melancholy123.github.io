@@ -104,27 +104,29 @@
   </td>
 </tr> -->
 
-  <tr>
-    <td width="40%" valign="top" align="center">
-    <img src="images/tvsafeopt.png" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></img>
-</td>
-    <td width="60%" valign="top">
-      <p>
-      <heading>	Safe Time-Varying Optimization based on Gaussian Processes with Spatio-Temporal Kernel</heading><br>
+
+<tr>
+  <td width="40%" valign="top" align="center">
+    <img src="images/tvsafeopt.png" alt="Safe Time-Varying Optimization schema" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;">
+  </td>
+
+  <td width="60%" valign="top">
+    <p>
+      <strong>Safe Time-Varying Optimization based on Gaussian Processes with Spatio-Temporal Kernel</strong><br>
       Jialin Li, Marta Zagorowska, Giulia De Pasquale, Alisa Rupenyan, John Lygeros<br>
-      NeurIPS 2024<br>
-      </p>
-      <div class="paper" id="hover">
+      <i>NeurIPS 2024</i><br> </p>
+
+    <div class="paper" id="hover">
       <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/ad30b5f8274286c4ee12de843f03a07f-Paper-Conference.pdf">pdf</a> |
       <a href="javascript:toggleblock('bas_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('bas')" class="togglebib">bibtex</a> |
       <a href="https://arxiv.org/abs/2409.18000">arXiv</a>
 
-      
+      <p align="justify" id="bas_abs" style="display:none; margin-top: 10px; font-style: italic;">
+        Ensuring safety is a key aspect in sequential decision making problems, such as robotics or process control. The complexity of the underlying systems often makes finding the optimal decision challenging, especially when the safety-critical system is time-varying. Overcoming the problem of optimizing an unknown time-varying reward subject to unknown time-varying safety constraints, we propose TVSAFEOPT, a new algorithm built on Bayesian optimization with a spatio-temporal kernel. The algorithm is capable of safely tracking a time-varying safe region without the need for explicit change detection. Optimality guarantees are also provided for the algorithm when the optimization problem becomes stationary. We show that TVSAFEOPT compares favorably against SAFEOPT on synthetic data, both regarding safety and optimality. Evaluation on a realistic case study with gas compressors confirms that TVSAFEOPT ensures safety when solving time-varying optimization problems with unknown reward and safety functions.
+      </p>
 
-      <p align="justify"> <i id="bas_abs">Ensuring safety is a key aspect in sequential decision making problems, such as robotics or process control. The complexity of the underlying systems often makes finding the optimal decision challenging, especially when the safety-critical system is time-varying. Overcoming the problem of optimizing an unknown time-varying reward subject to unknown time-varying safety constraints, we propose TVSAFEOPT, a new algorithm built on Bayesian optimization with a spatio-temporal kernel. The algorithm is capable of safely tracking a time-varying safe region without the need for explicit change detection. Optimality guarantees are also provided for the algorithm when the optimization problem becomes stationary. We show that TVSAFEOPT compares favorably against SAFEOPT on synthetic data, both regarding safety and optimality. Evaluation on a realistic case study with gas compressors confirms that TVSAFEOPT ensures safety when solving time-varying optimization problems with unknown reward and safety functions.</i></p>
-
-<pre xml:space="preserve">
+      <pre xml:space="preserve" id="bas" style="display:none; background-color: #f5f5f5; padding: 10px; border-radius: 5px; margin-top: 10px;">
 @article{li2024safe,
   title={Safe time-varying optimization based on gaussian processes with spatio-temporal kernel},
   author={Li, Jialin and Zagorowska, Marta and De Pasquale, Giulia and Rupenyan, Alisa and Lygeros, John},
@@ -133,11 +135,10 @@
   pages={95326--95355},
   year={2024}
 }
-</pre>
-      </div>
-    </td>
-  </tr>
-          
+      </pre>
+    </div>
+  </td>
+</tr>          
           </tbody></table>
 
           
