@@ -51,8 +51,16 @@
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
+            <tr>
+              <td>
+                <h2>Publications</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
 <!-- <tr onmouseout="radmesh_stop()" onmouseover="radmesh_start()" bgcolor="#ffffd0">
   <td style="padding:16px;width:20%;vertical-align:middle">
     <div class="one">
@@ -96,8 +104,38 @@
   </td>
 </tr> -->
 
+  <tr>
+    <td width="40%" valign="top" align="center">
+    <img src="images/tvsafeopt.png" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></img>
+</td>
+    <td width="60%" valign="top">
+      <p>
+      <heading>	Safe Time-Varying Optimization based on Gaussian Processes with Spatio-Temporal Kernel</heading><br>
+      Jialin Li, Marta Zagorowska, Giulia De Pasquale, Alisa Rupenyan, John Lygeros<br>
+      NeurIPS 2024<br>
+      </p>
+      <div class="paper" id="hover">
+      <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/ad30b5f8274286c4ee12de843f03a07f-Paper-Conference.pdf">pdf</a> |
+      <a href="javascript:toggleblock('bas_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('bas')" class="togglebib">bibtex</a> |
+      <a href="https://arxiv.org/abs/2409.18000">arXiv</a>
 
+      
 
+      <p align="justify"> <i id="bas_abs">Real-world legged locomotion systems often need to reconcile agility and safety for different scenarios. Moreover, the underlying dynamics are often unknown and time-variant (e.g., payload, friction). In this paper, we introduce BAS (Bridging Adaptivity and Safety), which builds upon the pipeline of prior work Agile But Safe (ABS)(He et al.) and is designed to provide adaptive safety even in dynamic environments with uncertainties. BAS involves an agile policy to avoid obstacles rapidly and a recovery policy to prevent collisions, a physical parameter estimator that is concurrently trained with agile policy, and a learned control-theoretic RA (reach-avoid) value network that governs the policy switch. Also, the agile policy and RA network are both conditioned on physical parameters to make them adaptive. To mitigate the distribution shift issue, we further introduce an on-policy fine-tuning phase for the estimator to enhance its robustness and accuracy. The simulation results show that BAS achieves 50% better safety than baselines in dynamic environments while maintaining a higher speed on average. In real-world experiments, BAS shows its capability in complex environments with unknown physics (e.g., slippery floors with unknown frictions, unknown payloads up to 8kg), while baselines lack adaptivity, leading to collisions or. degraded agility. As a result, BAS achieves a 19.8% increase in speed and gets a 2.36 times lower collision rate than ABS in the real world.</i></p>
+
+<pre xml:space="preserve">
+@article{zhong2025bridging,
+  title={Bridging Adaptivity and Safety: Learning Agile Collision-Free Locomotion Across Varied Physics},
+  author={Zhong, Yichao and Zhang, Chong and He, Tairan and Shi, Guanya},
+  journal={arXiv preprint arXiv:2501.04276},
+  year={2025}
+}
+</pre>
+      </div>
+    </td>
+  </tr>
+          
           </tbody></table>
 
           
