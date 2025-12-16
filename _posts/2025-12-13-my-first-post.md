@@ -3,9 +3,9 @@ layout: default
 title:  "Welcome to my Blog"
 date:   2025-12-13
 ---
-## Hello World
+## Welcome to my Blog
 
-I start this blog because I recently become eagerly ethusiastic on writing about the following topics, including but are not limited to:
+I start this blog because I recently become eagerly ethusiastic on writing about the following topics:
 
 * Technicality and practicality and in between
 * Wiener’s cybernetics and “modern” physical intelligence
@@ -13,5 +13,6 @@ I start this blog because I recently become eagerly ethusiastic on writing about
 * Optimal transport and Schroedinger bridge
 * Series on control concepts inspiring learning
 * Caratheodory and Einstein‘s gravity
+* ...
 
 I hope I can finish most of them one day!
