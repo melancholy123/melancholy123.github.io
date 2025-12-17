@@ -3,6 +3,7 @@ layout: default
 title:  "Welcome to my Blog"
 date:   2025-12-13
 ---
+[← Back to Blog](/blog/)
 ## Welcome to my Blog
 
 I start this blog because I recently become eagerly ethusiastic on writing about the following topics:
