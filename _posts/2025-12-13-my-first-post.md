@@ -6,7 +6,7 @@ date:   2025-12-13
 [← Back to Blog](/blog/)
 ## Welcome to my Blog
 
-I start this blog because I recently become eagerly ethusiastic on writing about the following topics:
+I start this blog because I recently become eagerly enthusiastic on writing about the following topics:
 
 * Series on diffusion and flows
 * Series on control concepts inspiring learning
