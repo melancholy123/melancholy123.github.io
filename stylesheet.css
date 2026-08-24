@@ -155,17 +155,11 @@ span.highlight {
 
 .site-header {
   padding: 20px 0 10px;
-  text-align: center;
+  text-align: left;
 }
 
-.site-title {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
-  color: #000000;
-}
-
-.site-nav {
-  padding-top: 10px;
+.site-home {
+  font-size: 14px;
 }
 
 .content {
@@ -267,7 +261,7 @@ span.highlight {
 .content .post-date {
   color: gray;
   font-size: 14px;
-  margin: 0 0 28px;
+  margin: 0 0 2px;
 }
 
 .content .post-list {
@@ -284,8 +278,13 @@ span.highlight {
   margin-right: 8px;
 }
 
+.content .post-back,
+.content .post-back a {
+  font-size: 14px;
+}
+
 .content .post-back {
-  padding-top: 20px;
+  margin: 0 0 28px;
 }
 
 .site-footer {
