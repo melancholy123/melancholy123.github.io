@@ -7,7 +7,7 @@
     {% seo %}
 
     <link rel="shortcut icon" href="{{ '/images/favicon/favicon.ico' | relative_url }}" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="{{ '/stylesheet.css' | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/stylesheet.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
     <script>
       window.MathJax = {
