@@ -8,9 +8,8 @@ I start this blog because I recently become eagerly enthusiastic on writing abou
 
 * Series on diffusion and flows
 * Series on control concepts inspiring learning
-* Optimal transport and Schroedinger bridge
 * Wiener’s cybernetics and “modern” physical intelligence
-* Technicality, practicality, and in between
+* Top research labs in the past, now, and future 
 * Caratheodory and Einstein‘s gravity
 * ...
 
