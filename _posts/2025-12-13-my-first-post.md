@@ -15,7 +15,7 @@ I start this blog because I recently become eagerly enthusiastic on writing abou
 
 I hope I can finish most of them one day!
 
-A bit about me: I grew up in Dalian, a livable coastal city in Northeastern China. I enjoy watching movies; my favorite directors are Akira Kurosawa, Andrei Tarkovsky, and Stanley Kubrick. I also like hiking, reading history, and visiting art museums.
+A bit about me: I grew up in Dalian, a livable coastal city in Northeastern China. I enjoy watching movies; my favorite directors are Akira Kurosawa, Andrei Tarkovsky, and Stanley Kubrick. I also like hiking, reading history, and visiting art museums. It may be too early to say, but after I retire I would like to study math and physics while taking care of a mini-farm.
 
 A few photos from hikes in Switzerland.
 
