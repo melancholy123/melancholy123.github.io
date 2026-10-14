@@ -14,7 +14,7 @@ Jialin Li's personal academic website (https://melancholy123.github.io), adapted
 
 ## Structure and conventions
 
-- `index.html` is the entire homepage: bio, publications, academic service, and teaching are hand-edited HTML tables (Jon Barron template style). Content updates (new papers, teaching entries, etc.) mean editing these tables directly, following the existing row markup. Publication images go in `images/`, the CV lives at `data/JialinLi_CV.pdf`.
+- `index.html` is the entire homepage: bio, publications, academic service, and teaching are hand-edited HTML tables (Jon Barron template style). Content updates (new papers, teaching entries, etc.) mean editing these tables directly, following the existing row markup. Publication images go in `images/`, the CV lives at `data/CV.pdf`.
 - `stylesheet.css` is the only stylesheet for the homepage.
 - `mipnerf/`, `mipnerf360/`, `zipnerf/` are self-contained project-page templates carried over from the Barron template (each with its own `css/`, `js/`, `img/`). They still reference jonbarron.info assets and are kept as templates for future project pages; they are not part of Jialin's own content.
 - `CNAME` controls the custom domain for GitHub Pages.
